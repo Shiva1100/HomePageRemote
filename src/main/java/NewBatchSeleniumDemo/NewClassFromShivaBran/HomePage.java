@@ -13,6 +13,7 @@ public class HomePage {
 		inputDropDown.get("https://www.google.com/");
 		inputDropDown.manage().window().maximize();
 		inputDropDown.findElement(By.xpath("//input[@class='gLFyf gsfi']")).sendKeys("Selenium course");
+		System.out.println("Added from github");
 		
 
 	}
